@@ -1,23 +1,36 @@
 ---
 layout: default
+title: "Software Developers"
+permalink: /index.html
+description: |
+  Unique software development model in distributed teams,
+  using Java, Ruby, NoSQL, continuous delivery and unit tests
+keywords:
+  - java programmers outsource
+  - outsourcing programming
+  - software developers outsource
+  - programmers outsource
+  - find developers for startup
+  - find programmers for startup
+  - distributed programming
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<body class="idx">
+  <section itemscope itemtype="http://schema.org/Organization">
+    <header>
+      <a href="/" title="home page">
+        <img itemprop="logo" src="//img.teamed.io/logo-light.svg" alt="teamed.io logo" class="logo"/>
+      </a>
+    </header>
+    <p class="slogan">무엇을 찾으세요?</p>
+    <nav class="buttons">
+      <a class="developers" itemprop="makesOffer" href="/sponsor.html">찬반토론</a>
+      <span>or</span>
+      <a class="job" itemprop="seeks" href="/developer.html">자유토론</a>
+    </nav>
+    <p class="contacts">
+      <a href="https://www.facebook.com/issueup">
+        <i class="fa fa-facebook  ico"></i> isuue up
+      <br/>
+    </p>
+  </section>
+</body>

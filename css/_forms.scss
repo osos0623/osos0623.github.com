@@ -1,0 +1,39 @@
+@import 'defs';
+@import 'fonts';
+
+input::-webkit-input-placeholder {
+  color: darken($red,20);
+}
+input::-moz-placeholder {
+  color: darken($red,20);
+}
+input::-ms-input-placeholder {
+  color: darken($red,20);
+}
+input, button {
+  border-radius: 5px;
+  display: inline;
+  font-family: $main-font;
+  padding: .5em 1em;
+  margin: .2 * $em 0;
+  font-size: $em;
+  outline: 0;
+  @media all and (max-width: 300px) {
+    width: 100%;
+  }
+}
+input {
+  background-color: lighten($red,30);
+  color: darken($red,30);
+  width: 280px;
+}
+button {
+  white-space: nowrap;
+  cursor: pointer;
+  color: white;
+  background-color: #c14b30;
+  letter-spacing: 3px;
+  &:hover {
+    background-color: #ac351b;
+  }
+}
